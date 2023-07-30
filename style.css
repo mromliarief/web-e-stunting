@@ -1,0 +1,361 @@
+*,html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+}
+
+.title{
+    background-color: crimson;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bolder;
+}
+
+.menu{
+    text-align: center;
+    background-color: cornsilk;
+    padding-top: 15px;
+    padding-bottom: 15px;    
+}
+
+.menu ul{
+    display: inline-block;
+    list-style: none;
+}
+
+.menu ul li{
+    float: left;
+    text-align: center;
+}
+
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding-right: 30px;
+    font-weight: bolder;
+    color: crimson;
+}
+
+.menu ul li a:hover{
+    color: teal;
+    text-decoration: underline;
+}
+
+.main img{
+    width: 600px;
+    display: block;
+    margin: auto;
+}
+
+.main .overview h3{
+    text-align: center;
+    color: crimson;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-bottom: 15px;
+    margin-top: 55px;
+}
+
+.main .overview p{
+    text-align: left;
+    background-color: cornsilk;
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 10px;
+    line-height: 30px;
+    box-sizing: border-box;
+    box-shadow: 2px 5px 7px rgb(201, 201, 201);
+}
+
+.card-title h3{
+    text-align: center;
+    color: crimson;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-bottom: 15px;
+    margin-top: 55px;
+}
+
+.group-card{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    position: relative;
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid crimson;
+    border-radius: 15px;
+    box-shadow: 2px 5px 7px rgb(201, 201, 201);
+    width: 250px;
+}
+
+.card .card-satu img{
+    width: 200px;
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+.card .card-satu p{
+    position: absolute;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.cause h3{
+    margin-top: 100px;
+    text-align: center;
+    color: crimson;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-bottom: 15px;
+}
+
+.cause .cause-list{
+    text-align: left;
+    background-color: cornsilk;
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 10px;
+    line-height: 30px;
+    box-sizing: border-box;
+    box-shadow: 2px 5px 7px rgb(201, 201, 201);
+}
+
+.cause .cause-list p{
+    text-align: center;
+}
+
+.cause .cause-list a{
+    text-decoration: none;
+    color: crimson;
+    font-weight: bolder;
+}
+
+.cause .cause-list a:hover{
+    color: teal;
+    text-decoration: underline;
+}
+
+.cause .cause-list ul li{
+    list-style: none;
+    text-align: center;
+}
+
+.preventif h3{
+    margin-top: 60px;
+    text-align: center;
+    color: crimson;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-bottom: 15px;
+}
+
+.preventif .preventif-list{
+    text-align: left;
+    background-color: cornsilk;
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 10px;
+    line-height: 30px;
+    box-sizing: border-box;
+    box-shadow: 2px 5px 7px rgb(201, 201, 201);
+}
+
+.preventif p{
+    text-align: center;
+}
+
+.preventif p a{
+    text-decoration: none;
+    color: crimson;
+    font-weight: bolder;
+}
+
+.preventif p a:hover{
+    color: teal;
+    text-decoration: underline;
+}
+
+.preventif ul li{
+    list-style: none;
+    text-align: center;
+}
+
+.kontak{
+    background-color: crimson;
+    margin-top: 55px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    width: 100vmax;
+}
+
+.kontak h3{
+    text-align: left;
+    margin-left: 30px;
+}
+
+.kontak p{
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.kontak p a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+
+.kontak p a:hover{
+    color: cyan;
+    text-decoration: underline;
+}
+
+footer p{
+    margin-top: -50px;
+    position: absolute;
+    display: inline;
+    right: 0;
+    margin-right: 30px;
+    color: white;
+    font-weight: bolder;
+}
+
+@media screen and (max-width:600px){
+    *{
+        width: 100vmin;
+    }
+    .title{
+        font-size: 14px;
+    }
+
+    .menu ul li {
+        float: none;
+        text-align: center;
+        margin: 5px;
+    }
+
+    .main img{
+        width: 400px;
+        margin: auto;
+        left: auto;
+    }
+
+    .main .overview h3{
+        font-size: 22px;
+        margin-top: 40px;
+    }
+
+    .main .overview p{
+        position: relative;
+    }
+
+    .group-card{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .card{
+        margin-bottom: 20px;
+        margin: auto;
+        margin-bottom: 70px;
+    }
+
+    .card .card-satu img{
+        width: 200px;
+        padding: 10px;
+        border-radius: 50px;
+    }
+    
+    .card .card-satu > p{
+        margin-top: 10px;
+        text-align: center;
+        position: absolute;
+        height: 20vh;
+        margin-left: -70px;
+        font-size: larger;
+        font-weight: 300;
+    }
+
+    .cause .cause-list{
+        margin: auto;
+        box-sizing: border-box;
+    }
+
+    hr{
+       display: none;
+    }
+
+    .cause h3{
+        margin-top: 30px;
+    }
+    
+    .cause .cause-list p{
+        text-align: left;
+        box-sizing: border-box;
+    }
+
+    .cause .cause-list p b{
+        text-align: left;
+    }
+
+    .cause .cause-list ul li{
+        text-align: left;
+        box-sizing: border-box;
+    }
+
+    .preventif h3{
+        margin-top: 30px;
+    }
+
+    .preventif .preventif-list{
+        max-width: fit-content;
+        margin: auto;
+        box-sizing: border-box;
+    }
+
+    .preventif .preventif-list p{
+        text-align: left;
+        box-sizing: border-box;
+    }
+
+    .preventif .preventif-list ul li{
+        text-align: left;
+    }
+
+    .kontak h3{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .kontak p{
+        text-align: center;
+        margin-left: 0;
+    }
+
+
+    footer p{
+       color: black; 
+       text-align: center;
+       margin-top: 20px;
+       margin-right: 0px;
+       padding-bottom: 40px;
+       display: inline-block;
+    }
+}
